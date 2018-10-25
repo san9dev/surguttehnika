@@ -1,0 +1,188 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Ubuntu",sans-serif;
+  font-size: .95rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+}
+
+a {
+  color: #000 !important;
+  text-decoration: underline !important;  
+}
+
+.logo {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+a.nav-text	{	
+  color: orange !important;
+  font-size: 1.3rem !important;
+  text-decoration: none !important;
+  margin-left: 0.5rem;}
+
+img:hover {
+  opacity: 0.5; /* Полупрозрачность элемента */
+}
+
+a.nav-text:hover {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+.dropdown-item {  
+  text-decoration: none !important;
+}
+
+.navbar-brand {
+	font-size: 1.5rem !important;
+}
+
+.item-icon {
+  flex: 1 0 155px;
+}
+
+.entry-title {
+  margin-bottom: 50px;
+  padding-top: 35px;
+  line-height: 2rem;
+}
+
+.brd {
+  border: 1px solid #000;
+}
+
+.center-wrap {
+  margin: 0 auto;
+}
+
+.block-service-text {
+font-size: 1.2rem;
+font-weight: 400;
+color: #000 !important;
+}
+
+.block-service {
+  margin-bottom: 50px;
+font-size: 1.2rem;
+font-weight: 500;
+color: #000 !important;
+text-decoration: underline;  
+}
+
+.prefooter {
+  margin-top: 0px;
+  padding-top: 50px;
+  background: #fdc43b;
+  height: 300px;
+}
+
+.footer-phone-wrapper {
+  /*background-image: url(img/phone-footer.png);*/
+  background-repeat: no-repeat;
+  /*padding: 15px 15px 15px 40px;*/
+}
+
+.footer-page-link-wrapper {
+  padding-top: 15px;
+}
+
+.footer-page-link-item { 
+  display: block;
+}
+
+.social-links-wrapper { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.social-link-item {
+  display: inline;
+}
+
+.social-link-item img {
+    width: 32px;
+    height: 32px;
+}
+
+.prefooter-phones {
+  display: block;
+  padding-top: 50px;
+  background: #fdc43b;
+  height: 300px;
+}
+
+.footer {
+  height: 500px;
+  background: #212529;
+}
+
+.btn { 
+text-align: left !important;
+}
+
+.iphone {
+  position: relative;
+  padding-top: 15px;
+
+} 
+
+.order-btn {  
+  background: #fdc43b;
+}
+
+.numbers {
+  padding-left: 10px;
+  font-weight: 700 !important;
+  text-decoration: none !important
+}
+
+.title-wrap { 
+  margin: 0 0 30px 0;
+  background: linear-gradient(to right, #f4f4f4, #babbc0);
+  height: 100px;
+}
+
+.title-text h1 {
+  position: relative;
+  font-size: 1.8rem;
+  padding: 1% 0 0 10%;
+}
+
+.description  {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.description-img img:hover {  
+}
+
+.discribe-title h1 {
+  font-size: 1.2rem;
+}
+
+.bot-line {
+  border-bottom: 1px dotted rgba(0,0,0,0.3);
+}
+
+.specifications-wrap li {
+  padding-left: 0px;
+  width: 100%;
+  border-bottom: 1px dotted rgba(0,0,0,0.3);
+  list-style-type: none;
+}
+
+.specifications-wrap ul {
+  padding-left: 0;
+}
+
+
+.specifications-item-value {
+  padding-left: 80px;
+}
