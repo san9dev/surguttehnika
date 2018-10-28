@@ -30,6 +30,17 @@ a.nav-text:hover {
   color: #fff !important;
 }
 
+.title-text h1 {
+  position: relative;
+  font-size: 3.0rem;
+  padding: 1% 0 0 10%;
+}
+
+.title-text-arenda h1 {
+  font-size: 1.5rem;
+}
+
+
 .dropdown-item {  
   text-decoration: none !important;
 }
@@ -144,11 +155,6 @@ text-align: left !important;
   height: 100px;
 }
 
-.title-text h1 {
-  position: relative;
-  font-size: 3.0rem;
-  padding: 1% 0 0 10%;
-}
 
 .description  {
   margin-top: 20px;
@@ -227,7 +233,4 @@ li.contacts-item-text {
 .contacts-address { 
   width: 200px;  
 }
-
-
-
 
