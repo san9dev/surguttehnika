@@ -25,10 +25,6 @@ a.nav-text	{
   text-decoration: none !important;
   margin-left: 0.5rem;}
 
-img:hover {
-  opacity: 0.5; /* Полупрозрачность элемента */
-}
-
 a.nav-text:hover {
   text-decoration: none !important;
   color: #fff !important;
@@ -56,6 +52,8 @@ a.nav-text:hover {
   border: 1px solid #000;
 }
 
+
+
 .center-wrap {
   margin: 0 auto;
 }
@@ -75,8 +73,7 @@ text-decoration: underline;
 }
 
 .prefooter {
-  margin-top: 0px;
-  padding-top: 50px;
+  flex: 0 0 auto;
   background: #fdc43b;
 }
 
@@ -118,8 +115,7 @@ text-decoration: underline;
 }
 
 .footer {
-  height: 500px;
-  background: #212529;
+
 }
 
 .btn { 
@@ -150,7 +146,7 @@ text-align: left !important;
 
 .title-text h1 {
   position: relative;
-  font-size: 1.8rem;
+  font-size: 3.0rem;
   padding: 1% 0 0 10%;
 }
 
@@ -185,3 +181,53 @@ text-align: left !important;
 .specifications-item-value {
   padding-left: 80px;
 }
+
+
+/*CONTACT PAGE*/
+.contacts-container {
+  margin-bottom: 100px; 
+  height: 100%
+
+}
+
+.contacts-flex {
+   display: flex;
+   height: 100%;
+   width: 100%;
+   justify-content: center;
+}
+
+.contacts-wrap-flex {
+  display: inline-flex;
+  width: 400px;
+  height: 150px;
+  margin: 20px;
+}
+
+.phone-wrapper {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 5px 0px;
+
+}
+
+.contats-item {
+  display: flex;
+  align-items: center;
+}
+
+li.contacts-item-text {
+  list-style-type: none; 
+  text-decoration: none;
+
+}
+
+.email-text a {
+ text-decoration: none;
+}
+
+.contacts-address { 
+  width: 200px;  
+}
+
+
+
+
