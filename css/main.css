@@ -32,12 +32,13 @@ a.nav-text:hover {
 
 .title-text h1 {
   position: relative;
-  font-size: 3.0rem;
+  font-size: 2.2rem;
   padding: 1% 0 0 10%;
 }
 
 .title-text-arenda h1 {
-  font-size: 1.5rem;
+  padding-top: 20px;
+  font-size: 1.8rem;
 }
 
 
@@ -158,7 +159,7 @@ text-align: left !important;
 
 .description  {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 
 .description-img img:hover {  
