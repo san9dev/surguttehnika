@@ -235,3 +235,21 @@ li.contacts-item-text {
   width: 200px;  
 }
 
+/*УСЛУГИ*/
+
+.table-wrap-flex {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.item-table-name {
+  font-size: 1.5rem;
+  font-weight: 600 !important;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.table-item {
+  margin-bottom: 50px;
+}
