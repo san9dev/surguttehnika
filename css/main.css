@@ -191,11 +191,6 @@ text-align: left !important;
 
 
 /*CONTACT PAGE*/
-.contacts-container {
-  margin-bottom: 100px; 
-  height: 100%
-
-}
 
 .contacts-flex {
    display: flex;
@@ -207,7 +202,7 @@ text-align: left !important;
 .contacts-wrap-flex {
   display: inline-flex;
   height: 150px;
-  margin-right: 80px;
+  margin: 20px;
 }
 
 .phone-wrapper {
