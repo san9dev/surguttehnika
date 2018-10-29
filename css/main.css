@@ -233,7 +233,10 @@ li.contacts-item-text {
 }
 
 .contacts-address { 
-  width: 200px;  
+  padding: 30px;
+  width: 350px;
+  font-size: 1.3rem; 
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 5px 0px; 
 }
 
 /*УСЛУГИ*/
