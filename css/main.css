@@ -206,14 +206,14 @@ text-align: left !important;
 
 .contacts-wrap-flex {
   display: inline-flex;
-  width: 400px;
   height: 150px;
-  margin: 20px;
+  margin-right: 80px;
 }
 
 .phone-wrapper {
+  padding-right: 10px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 5px 0px;
-
+  
 }
 
 .contats-item {
@@ -222,6 +222,7 @@ text-align: left !important;
 }
 
 li.contacts-item-text {
+  width: 180px;
   list-style-type: none; 
   text-decoration: none;
 
