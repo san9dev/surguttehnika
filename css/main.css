@@ -200,7 +200,7 @@ text-align: left !important;
 }
 
 .contacts-wrap-flex {
-  display: inline-flex;
+  display: flex;
   height: 150px;
   margin: 20px;
 }
