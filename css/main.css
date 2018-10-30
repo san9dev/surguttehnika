@@ -15,6 +15,8 @@ a {
   text-decoration: underline !important;  
 }
 
+/*ОБЛАСТЬ НАВИГАЦИИ*/
+
 .logo {
   color: #fff !important;
   text-decoration: none !important;
@@ -64,7 +66,13 @@ a.nav-text:hover {
   border: 1px solid #000;
 }
 
+/*область аренды техники на главной странице*/
 
+.arenda-area img:hover{
+  opacity: 0.5
+}
+
+/*область сервис на главной странице*/
 
 .center-wrap {
   margin: 0 auto;
@@ -83,6 +91,8 @@ font-weight: 500;
 color: #000 !important;
 text-decoration: underline;  
 }
+
+/*ПОДВАЛ*/
 
 .prefooter {
   flex: 0 0 auto;
@@ -137,11 +147,19 @@ text-align: left !important;
 .iphone {
   position: relative;
   padding-top: 15px;
-
 } 
 
 .order-btn {  
+  margin-top: 20px !important;
   background: #fdc43b;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-decoration: none !important;
+  width: 120px;
+}
+
+.order-btn a {  
+  text-decoration: none !important;
 }
 
 .numbers {
