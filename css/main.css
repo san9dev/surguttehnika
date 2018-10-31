@@ -57,7 +57,7 @@ a.nav-text:hover {
 
 /*область аренды техники на главной странице*/
 
-.arenda-area img:hover{
+.arenda-area img:hover {
   opacity: 0.5
 }
 
@@ -88,11 +88,11 @@ a.nav-text:hover {
 
 .block-service-text {
   margin: 0 auto;
+  width: 700px;
   font-size: 1.2rem;
   font-weight: 400;
   text-align: justify;
   color: #000 !important;
-  width: 50%;
 }
 
 .block-service {
