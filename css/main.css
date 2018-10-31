@@ -188,7 +188,7 @@ text-align: left !important;
 
 .description  {
   margin-top: 20px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 .description-img img:hover {  
@@ -203,7 +203,6 @@ text-align: left !important;
 }
 
 .specifications-wrap li {
-  padding-left: 0px;
   width: 100%;
   border-bottom: 1px dotted rgba(0,0,0,0.3);
   list-style-type: none;
@@ -215,7 +214,7 @@ text-align: left !important;
 
 
 .specifications-item-value {
-  padding-left: 80px;
+  padding-left: 60px;
 }
 
 
