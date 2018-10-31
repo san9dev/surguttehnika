@@ -32,17 +32,6 @@ a.nav-text:hover {
   color: #fff !important;
 }
 
-.title-text h1 {
-  position: relative;
-  font-size: 2.2rem;
-  padding: 1% 0 0 10%;
-}
-
-.title-text-arenda h1 {
-  padding-top: 20px;
-  font-size: 1.8rem;
-}
-
 
 .dropdown-item {  
   text-decoration: none !important;
@@ -72,6 +61,25 @@ a.nav-text:hover {
   opacity: 0.5
 }
 
+/*Заголовок разделов аренды техники*/
+
+
+.title-text {
+  display: flex;
+}
+
+.title-text h1 {
+  margin: auto 0;
+  font-size: 1.8rem;
+}
+
+.title-text-arenda h1 {
+  margin: auto;
+  font-size: 1.8rem;
+}
+
+
+
 /*область сервис на главной странице*/
 
 .center-wrap {
@@ -79,17 +87,20 @@ a.nav-text:hover {
 }
 
 .block-service-text {
-font-size: 1.2rem;
-font-weight: 400;
-color: #000 !important;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: justify;
+  color: #000 !important;
+  width: 50%;
 }
 
 .block-service {
   margin-bottom: 50px;
-font-size: 1.2rem;
-font-weight: 500;
-color: #000 !important;
-text-decoration: underline;  
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000 !important;
+  text-decoration: underline;  
 }
 
 /*ПОДВАЛ*/
@@ -219,20 +230,22 @@ text-align: left !important;
 
 .contacts-wrap-flex {
   display: flex;
-  height: 150px;
   margin: 20px;
 }
 
 .phone-wrapper {
   padding-right: 10px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 5px 0px;
-  
 }
 
 .contats-item {
   display: flex;
   align-items: center;
 }
+
+.contats-item b {
+  font-size: 21px;
+  }
 
 li.contacts-item-text {
   width: 180px;
