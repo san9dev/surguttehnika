@@ -173,6 +173,20 @@ text-align: left !important;
   text-decoration: none !important;
 }
 
+.btn {
+  color: #000 !important;
+}
+
+.btn-primary {
+  background: #fdc43b !important;
+  border: none !important;
+  font-weight: 600 !important;
+}
+
+.btn-link {
+  text-decoration: underline;
+}
+
 .numbers {
   padding-left: 10px;
   font-weight: 700 !important;
@@ -201,6 +215,8 @@ text-align: left !important;
 .bot-line {
   border-bottom: 1px dotted rgba(0,0,0,0.3);
 }
+
+
 
 .specifications-wrap li {
   width: 100%;
