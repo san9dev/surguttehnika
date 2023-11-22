@@ -1,7 +1,7 @@
 # surguttehnika
 Сайт компании "СургутТехника"
 
-https://avbabushkin.github.io/surguttehnika/
+https://san9dev.github.io/surguttehnika/
 
 Что планируется реализовать: 
 - переезд на рельсы;
